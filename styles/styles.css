@@ -1,26 +1,51 @@
-body {
-    background: #000000;
-    color: white;
-    font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+:root {
+    --branding-color:#ffff;
+    --heading-font-family: "roboto",sans-serif;
+    
 }
 
 h1 {
+    font-family: var(--heading-font-family);
     font-weight: bold;
     font-size: 72px;
+    margin: 15px;
+    letter-spacing: 8px;
     
 }
 h2 {
+    font-family: var(--heading-font-family);
     font-weight: bold;
     font-size: 24px;
-
-}
-
-h3 {
-    font-weight: 300;
-    font-size: 18px;
+    letter-spacing: 2px;
     
+
+
 }
+
+.btn-branding{
+    background: var(--branding-color);
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 18px 30px;
+    text-decoration: none;
+    
+    
+
+}
+.hero{
+    text-align: center;
+    padding:200px 20px;
+    background-image: url(
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/535/original/IMG_4612_%282%29.jpeg?1744056045);
+   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #030303;
+    color: white;
+}
+    
