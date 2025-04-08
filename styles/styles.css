@@ -54,7 +54,7 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/535/origina
     background-size: contain;
     background-position: center;
     background-color: #030303;
-    color: white;
+    color: #ffff;
 }
 
 @media (max-width: 600px) {
@@ -79,4 +79,9 @@ https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/535/origina
 
 .row{
     margin-bottom: 30px;
+}
+
+h6 {
+    text-align: center;
+    color: #ffff;
 }
