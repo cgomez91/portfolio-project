@@ -1,87 +1,126 @@
 :root {
-    --branding-color:#ffff;
-    --heading-font-family: "roboto",sans-serif;
-    --primary-color:#030303;
+  --branding-color: #ffff;
+  --heading-font-family: "roboto", sans-serif;
+  --primary-color: #030303;
 }
 
 body {
-    background-color: var(--primary-color)
+  background-color: var(--primary-color);
 }
 
 h1 {
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    font-size: 72px;
-    margin: 15px;
-    letter-spacing: 8px;
-    
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 72px;
+  margin: 15px;
+  letter-spacing: 8px;
 }
 h2 {
-    font-family: var(--heading-font-family);
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 2px;
-    
-
-
-}
-p {
-    line-height: 8px;
-    
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
 }
 
-.btn-branding{
-    background: var(--branding-color);
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 50px;
-    font-size: 14px;
-    padding: 18px 30px;
-    text-decoration: none;
-    
-    
 
+.btn-branding, .btn-contact {
+  background: var(--branding-color);
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  font-size: 14px;
+  padding: 18px 30px;
+  text-decoration: none;
 }
-.hero{
-    text-align: center;
-    padding:285px 30px;
-    background-image: url(
-https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/535/original/IMG_4612_%282%29.jpeg?1744056045);
-   
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: #030303;
-    color: #ffff;
+.hero {
+  text-align: center;
+  padding: 285px 30px;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/162/535/original/IMG_4612_%282%29.jpeg?1744056045);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #030303;
+  color: #ffff;
 }
 
 @media (max-width: 600px) {
-    h1 {
-        font-size: 56px;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    p {
-        font-size: 10px;
-        line-height: 4px;
-    }
-    .hero {
-        padding: 140px 15px;
-    }
-   
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 10px;
+    line-height: 4px;
+  }
+  .hero {
+    padding: 140px 15px;
+  }
+  .about-section h2 {
+    margin-top: 10px;
+  }
+  .about-section p {
+    line-height: normal;
+  }
+  
 }
-.container{
-    margin-top: 75px;
+.container {
+  margin-top: 75px;
 }
 
-.row{
-    margin-bottom: 30px;
+.row {
+  margin-bottom: 30px;
 }
 
 h6 {
-    text-align: center;
-    color: #ffff;
+  text-align: center;
+  color: #ffff;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f65282;
+}
+.about-section h1 {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #ffff;
+  margin: 0;
+}
+.about-section p {
+  color: #ffff;
+  font-size: 18px;
+  
+}
+.icons {
+  display: flex;
+  gap: 30px;
+  
+}
+.camera-row {
+  display: flex;
+  gap: 30px;
+  padding: 20px 20px;
+  background-color: #2D2727;
+  width: 425px;
+  margin-top: 35px;
+  margin-bottom: 80px;
+  
+  }
+  .camera-row p {
+    margin-top: 10px;
+  }
+  
