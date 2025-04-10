@@ -2,6 +2,7 @@
   --branding-color: #ffff;
   --heading-font-family: "roboto", sans-serif;
   --primary-color: #1b1b1b;
+  --secondary-color: #f65282;
 }
 
 body {
@@ -46,7 +47,7 @@ h2 {
   background-size: contain;
   background-position: center;
   background-color: #030303;
-  color: #ffff;
+  color: var(--branding-color);
 }
 .hero p {
   line-height: 10px;
@@ -83,7 +84,7 @@ h2 {
 
 h6 {
   text-align: center;
-  color: #ffff;
+  color: var(--branding-color);
 }
 
 img {
@@ -96,17 +97,17 @@ img {
 .about-section h2 {
   font-size: 18px;
   font-weight: bold;
-  color: #f65282;
+  color: var(--secondary-color);
 }
 .about-section h1 {
   font-size: 64px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #ffff;
+  color: var(--branding-color);
   margin: 0;
 }
 .about-section p {
-  color: #ffff;
+  color: var(--branding-color);
   font-size: 18px;
   
 }
@@ -128,4 +129,20 @@ img {
   .camera-row p {
     margin-top: 10px;
   }
-  
+  .contact-container {
+    margin: 100px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--branding-color);
+    font-size: 18px;
+    
+  }
+  .highlight {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--secondary-color);
+
+  }
+  .fa-solid {
+  padding: 10px;
+  }
