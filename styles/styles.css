@@ -146,3 +146,7 @@ img {
   .fa-solid {
   padding: 10px;
   }
+  a {
+    color: var(--branding-color);
+    text-decoration: none;
+  }
