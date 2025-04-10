@@ -1,7 +1,7 @@
 :root {
   --branding-color: #ffff;
   --heading-font-family: "roboto", sans-serif;
-  --primary-color: #030303;
+  --primary-color: #1b1b1b;
 }
 
 body {
@@ -14,6 +14,9 @@ h1 {
   font-size: 72px;
   margin: 15px;
   letter-spacing: 8px;
+  color: var(--branding-color);
+  text-align: center;
+  
 }
 h2 {
   font-family: var(--heading-font-family);
@@ -68,7 +71,7 @@ h2 {
   .about-section p {
     line-height: normal;
   }
-  
+ 
 }
 .container {
   margin-top: 75px;
