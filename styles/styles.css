@@ -45,7 +45,9 @@ h2 {
   background-color: #030303;
   color: #ffff;
 }
-
+.hero p {
+  line-height: 10px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 56px;
