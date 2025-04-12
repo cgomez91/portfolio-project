@@ -9,6 +9,29 @@ body {
   background-color: var(--primary-color);
 }
 
+ .nav-container {
+    background-color: #202020;
+  }
+
+nav {
+  padding: 40px 0;
+  
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  color: var(--branding-color);
+  margin-left: 25px;
+}
+nav a:hover{
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -72,11 +95,17 @@ h2 {
   .about-section p {
     line-height: normal;
   }
+ .logo {
+  display: none;
+ }
  
 }
-.container {
-  margin-top: 75px;
+
+.photo-container {
+  padding: 75px;
+  margin: 25px 50px;
 }
+
 
 .row {
   margin-bottom: 30px;
@@ -102,7 +131,8 @@ img {
 .about-section h1 {
   font-size: 64px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 8px;
+  text-align: left;
   color: var(--branding-color);
   margin: 0;
 }
@@ -114,7 +144,7 @@ img {
 .icons {
   display: flex;
   gap: 30px;
-  
+  padding: 50px 0;
 }
 .camera-row {
   display: flex;
@@ -123,7 +153,7 @@ img {
   background-color: #2D2727;
   width: 425px;
   margin-top: 35px;
-  margin-bottom: 80px;
+  margin-bottom: 7%;
   
   }
   .camera-row p {
@@ -150,3 +180,4 @@ img {
     color: var(--branding-color);
     text-decoration: none;
   }
+ 
