@@ -98,8 +98,10 @@ h2 {
  .logo {
   display: none;
  }
+.logo-footer {
+  display: none;
+}
 
- 
 }
 
 
@@ -184,4 +186,9 @@ img {
     color: var(--branding-color);
     text-decoration: none;
   }
- 
+ footer {
+  background-color: #282323;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
