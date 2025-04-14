@@ -192,6 +192,16 @@ img {
     color: var(--branding-color);
     text-decoration: none;
   }
+  p {
+    color: var(--branding-color);
+  }
+  .coding-info a {
+    color: var(--secondary-color);
+    font-weight: bold;
+  }
+  .coding-info a:hover {
+    text-decoration: underline;
+  }
  footer {
   background-color: #282323;
   display: flex;
